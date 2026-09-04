@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EliteHomes - Your Dream Home Awaits</title>
+    <link rel="icon" type="image" href="Elite Homes Images/Favicon.png" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css_files/bootstrap.min.css" />
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+    <!-- font awosome -->
+    <link rel="stylesheet" href="css_files/fontawsome.min.css" />
+    <!-- media style -->
+    <link rel="stylesheet" href="css_files/media.css" />
+    <!-- css style  -->
+    <link rel="stylesheet" href="css_files/index.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 px-3 bg-white position-fixed">
+      <div class="container-fluid container-lg">
+        <a class="navbar-brand fs-4 fw-bold" href="#">EliteHomes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 fs-6 fw-medium">
+            <li class="nav-item">
+              <a class="nav-link active active-effect p-0 pt-2" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle p-0 pt-2" href="#proprties" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Proprties
+              </a>
+              <div class="dropdown-menu">
+                <div class="container-fluid py-3">
+                  <div class="row">
+                    <div class="col col-12 col-lg-3">
+                      <div class="inner">
+                        <h5 class="my-3 font-18 fw-semibold">Featured Properties</h5>
+                        <div class="featured-properites-info d-flex flex-row flex-lg-column flex-wrap">
+                          <div class="villa-propery d-flex mb-4 p-2 rounded-2">
+                            <div class="villa-image me-2">
+                              <img
+                                class="rounded-3 align-self-center flex-nowrap"
+                                src="Elite_Homes_Images/luxury-villa.jpeg"
+                                alt="villa image" />
+                            </div>
+                            <div class="villa-caption align-content-center font-14">
+                              <p class="p-0 m-0 text-capitalize">luxury villa</p>
+                              <p class="text-muted p-0 m-0">$2.5M•5 beds•4 baths</p>
+                            </div>
+                          </div>
+                          <div class="villa-propery d-flex p-2 rounded-2">
+                            <div class="villa-image me-2">
+                              <img
+                                class="rounded-3 align-self-center flex-nowrap"
+                                src="Elite_Homes_Images/modern-apartment.jpeg"
+                                alt="villa image" />
+                            </div>
+                            <div class="villa-caption font-14">
+                              <p class="p-0 m-0 text-capitalize">modern apartment</p>
+                              <p class="text-muted p-0 m-0">$2.5M•5 beds•4 baths</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-12 col-lg-3">
+                      <div class="inner">
+                        <h5 class="my-3 font-18 fw-semibold">Property Types</h5>
+                        <div class="type-links">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col">
+                                <div class="inner">
+                                  <ul class="p-0 row row-cols-2 row-cols-lg-1">
+                                    <li class="text-muted mb-3">
+                                      <span class="icon-gray me-2"><i class="fa-solid fa-house"></i> </span>
+                                      <a href="#" class="text-capitalize">single family homes</a>
+                                    </li>
+                                    <li class="text-muted mb-3">
+                                      <span class="icon-gray me-2"><i class="fa-solid fa-building"></i> </span>
+                                      <a href="#" class="text-capitalize">Apartments</a>
+                                    </li>
+                                    <li class="text-muted mb-3">
+                                      <span class="icon-gray me-2"><i class="fa-solid fa-warehouse"></i> </span>
+                                      <a href="#" class="text-capitalize">condominiums</a>
+                                    </li>
+                                    <li class="text-muted mb-3">
+                                      <span class="icon-gray me-2"><i class="fa-solid fa-store"></i> </span>
+                                      <a href="#" class="text-capitalize">commercial</a>
+                                    </li>
+                                    <li class="text-muted">
+                                      <span class="icon-gray me-2"><i class="fa-solid fa-tree"></i> </span>
+                                      <a href="#" class="text-capitalize">land & lots</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-12 col-lg-3">
+                      <div class="inner">
+                        <h5 class="my-3 font-18 fw-semibold">Popular Locations</h5>
+                        <div class="locations d-flex flex-lg-column gap-3 flex-row flex-nowrap">
+                          <div class="location-card position-relative rounded-4 overflow-hidden flex-grow-1 flex-lg-shrink-0">
+                            <img
+                              src="Elite_Homes_Images/new-york.jpeg"
+                              alt="new york"
+                              class="card-img w-100 h-100 object-fit-cover d-block" />
+
+                            <div
+                              class="card-caption text-white position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center p-4 cursor-pointer">
+                              <h5 class="text-capitalize font-18 fw-semibold text-start mb-1">new york</h5>
+                              <p class="mb-0">2,145 Properties</p>
+                            </div>
+                          </div>
+                          <div class="location-card position-relative rounded-4 overflow-hidden flex-grow-1 flex-lg-shrink-0">
+                            <img
+                              src="Elite_Homes_Images/los-angeles.jpeg"
+                              alt="new york"
+                              class="card-img w-100 h-100 object-fit-cover d-block" />
+
+                            <div
+                              class="card-caption text-white position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center p-4 cursor-pointer">
+                              <h5 class="text-capitalize font-18 fw-semibold text-start mb-1">los angleses</h5>
+                              <p class="mb-0">1,73,properties</p>
+                            </div>
+                          </div>
+                          <div class="location-card position-relative rounded-4 overflow-hidden flex-grow-1 flex-lg-shrink-0">
+                            <img src="Elite_Homes_Images/miami.jpeg" alt="new york" class="card-img w-100 h-100 object-fit-cover d-block" />
+
+                            <div
+                              class="card-caption text-white position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center p-4 cursor-pointer">
+                              <h5 class="text-capitalize font-18 fw-semibold text-start mb-1">Miami</h5>
+                              <p class="mb-0">1,526 Properties</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-12 col-lg-3">
+                      <div class="inner">
+                        <h5 class="my-3 font-18 fw-semibold">Resources</h5>
+                        <div class="buying-card p-3 rounded-3 position-relative overflow-hidden mb-2">
+                          <div class="card-heading d-flex gap-2">
+                            <span class="align-self-center py-1 px-2 rounded-circle bg-light-purple text-heavy-purple"
+                              ><i class="fa-solid fa-book-open"></i
+                            ></span>
+                            <h5 class="my-3 font-18 fw-semibold">Buying Guide</h5>
+                          </div>
+                          <p class="text-muted">Essential tips and strategies for first-time homebuyers</p>
+                          <span class="text-heavy-purple">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <div class="invesment-tip p-3 rounded-3 position-relative overflow-hidden mb-2">
+                          <div class="card-heading d-flex gap-2">
+                            <span class="align-self-center py-1 px-2 rounded-circle bg-light-green text-heavy-green"
+                              ><i class="fa-solid fa-chart-line"></i>
+                            </span>
+                            <h5 class="my-3 font-18 fw-semibold">investment tips</h5>
+                          </div>
+                          <p class="text-muted">Smart strategies for property investment success</p>
+                          <span class="text-heavy-green">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <div class="market p-3 rounded-3 position-relative overflow-hidden">
+                          <div class="card-heading d-flex gap-2">
+                            <span class="align-self-center py-1 px-2 rounded-circle market-bg"><i class="fa-solid fa-file-lines"></i></span>
+                            <h5 class="my-3 font-18 fw-semibold">Market Reports</h5>
+                          </div>
+                          <p class="text-muted">In-depth analysis of real estate market trends</p>
+                          <span class="text-heavy-purple">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0 pt-2" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0 pt-2" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0 pt-2" href="#faq">FAQ </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0 pt-2" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <main>
+      <!-- Start hero section -->
+      <section class="hero-section pt-5 d-flex flex-column">
+        <header class="hero-heading m-auto text-center py-5">
+          <h1 class="text-white text-capitalize">find your dream home</h1>
+          <p class="text-white fs-5 fw-normal">
+            Discover exceptional properties in prime locations. From modern condos to <br />
+            luxury estates, we help you find the perfect place to call home.
+          </p>
+        </header>
+        <div class="search-property">
+          <form action="#" class="rounded-4 p-4">
+            <div class="loaction-search">
+              <div class="text-center">
+                <label for="location" class="">Location</label>
+              </div>
+              <input type="text" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End hero section -->
+      <!-- <section class="featrures-section"></section> -->
+    </main>
+
+    <script src="Js_files/bootstrap.js"></script>
+  </body>
+</html>
