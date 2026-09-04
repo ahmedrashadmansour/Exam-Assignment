@@ -5,7 +5,10 @@
 /* md */
 @media (max-width: 768px) {
   .hero-section form {
-    width: 90% !important;
+    width: 95% !important;
+  }
+  .company-statistics {
+    width: 100%;
   }
 }
 
@@ -24,7 +27,12 @@
   .active-effect::before {
     display: none;
   }
+
+  .hero-section form {
+    width: 85% !important;
+  }
 }
+
 /* xl */
 @media (max-width: 1200px) {
 }
