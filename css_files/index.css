@@ -325,7 +325,7 @@ nav ul li a:hover::before,
 /* ================= Start hero section ================= */
 .hero-section {
   background-image: linear-gradient(rgba(99, 34, 150, 0.85), rgba(99, 34, 150, 0.85)), url(../Elite_Homes_Images/hero-bg-img.png);
-  height: 100vh;
+  height: fit-content;
   background-repeat: no-repeat;
   /* width: 100vw; */
   background-attachment: fixed;
@@ -339,8 +339,73 @@ h1 {
 }
 
 .hero-section form {
-  width: 70%;
+  width: 60%;
   background-color: white;
   margin: auto;
+}
+
+.company-statistics {
+  width: 60%;
+  margin: auto;
+}
+
+.figuers-style {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.input-wrapper {
+  position: relative;
+  display: block;
+}
+
+.input-wrapper i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0.93rem;
+  font-size: 1rem;
+  color: #6c757d;
+  z-index: 2;
+}
+.input-wrapper input {
+  padding-left: 45px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-wrapper input::placeholder {
+  color: #6c757d;
+  font-size: 14px;
+}
+.hide-arrow {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.form-control,
+.form-select {
+  border: 1px solid #ced4da !important;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.form-select:focus,
+.form-control:focus {
+  /* box-shadow: none !important; */
+  outline: none !important;
+  border-color: var(--bg-heavy-purple) !important;
+  box-shadow:
+    0 0 0 2px #ffffff,
+    0 0 0 4px var(--bg-heavy-purple) !important;
+}
+
+.hero-section button {
+  width: 97%;
+  margin: auto;
+  border: 1px solid #ced4da !important;
+  color: white;
+  background: radial-gradient(circle, #9415fb, #8022fe);
 }
 /* ================= End hero section ================= */
