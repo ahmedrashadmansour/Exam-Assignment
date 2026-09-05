@@ -78,6 +78,11 @@
   .accordion {
     width: 90% !important;
   }
+
+  .contact header::after,
+  .contact header::before {
+    display: none;
+  }
 }
 
 /* xl */
