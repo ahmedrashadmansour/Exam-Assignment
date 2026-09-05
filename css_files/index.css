@@ -72,8 +72,32 @@ img {
   --text-heavy-green: #00a63e;
   --bg-light-green: #dbfce7;
   --bg-orange: #e17100;
+  --text-blue: #4f39f6;
+  --bg-blue: #4f39f6;
+  --bg-redish-purple: #9810fa;
+  --bg-heavy-yellow: #d08700;
+  --bg-light-yellow: #fef9c2;
+}
+.bg-heavy-yellow {
+  background-color: var(--bg-heavy-yellow);
+}
+.bg-heavy-yellow:hover {
+  background-color: #a65f00;
+}
+.bg-light-yellow {
+  background-color: var(--bg-light-yellow);
 }
 
+.text-heavy-yellow {
+  color: var(--bg-heavy-yellow);
+}
+
+.bg-redish-purple {
+  background-color: var(--bg-redish-purple);
+}
+.bg-redish-purple:hover {
+  background-color: #8200db;
+}
 .bg-light-green {
   background-color: #dbfce7;
 }
@@ -84,14 +108,36 @@ img {
 .text-heavy-green {
   color: var(--text-heavy-green);
 }
+
 .bg-heavy-green {
   background: var(--text-heavy-green);
+}
+
+.bg-heavy-green:hover {
+  background-color: #008236;
 }
 .bg-heavy-purple {
   background-color: #7f22fe !important;
 }
 .text-heavy-purple {
   color: #7f22fe !important;
+}
+
+.text-blue-w-bg {
+  color: var(--text-blue);
+  background-color: #e0e7ff;
+}
+.text-purple-w-bg {
+  color: var(--bg-heavy-purple);
+  background-color: var(--bg-light-purple);
+}
+
+.bg-blue {
+  background-color: var(--bg-blue);
+}
+
+.bg-blue:hover {
+  background-color: #432dd7;
 }
 
 .bg-light-purple {
@@ -359,8 +405,11 @@ h1 {
   width: 100%;
 }
 
-.container-80 {
+.container-60 {
   max-width: 60% !important;
+}
+.container-80 {
+  max-width: 80% !important;
 }
 
 .figuers-style {
@@ -424,6 +473,15 @@ h1 {
 }
 
 .btn-purple:hover {
+  background: radial-gradient(circle, #7a0fd0 0%, #6415d9 100%);
+}
+.btn-purple-no-width {
+  border: 1px solid #ced4da !important;
+  color: white;
+  background: radial-gradient(circle, #9415fb, #8022fe);
+}
+
+.btn-purple-no-width:hover {
   background: radial-gradient(circle, #7a0fd0 0%, #6415d9 100%);
 }
 
@@ -527,4 +585,77 @@ h2 {
   width: fit-content !important;
   margin: auto;
 }
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: var(--text-heavy-purple) !important;
+  background-color: #f5f3ff !important;
+  border-bottom: 2px solid var(--bg-heavy-purple) !important;
+}
+
+.our-services .nav-item button {
+  border: none;
+  border-radius: 0;
+}
+/* 
+.image-building img {
+  height: 400px !important;
+  width: 100%;
+} */
+
+.img-wrapper {
+  position: relative;
+  border-radius: 28px;
+  overflow: hidden;
+
+  /* transition: all 0.3s ease-in-out; */
+  /* max-height: 400px;
+  max-width: 600px; */
+}
+
+.img-wrapper img {
+  max-width: 550px;
+  max-height: 400px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.commercial-vol {
+  background-color: white !important;
+  position: absolute;
+  left: -5%;
+  bottom: 8%;
+  /* overflow: visible; */
+  padding: 25px !important;
+}
+
+.right-postion-icon {
+  background-color: white !important;
+  position: absolute;
+  right: -5%;
+  bottom: 10%;
+  /* overflow: visible; */
+  padding: 20px !important;
+}
+.img-wrapper-bigger {
+  height: 90% !important;
+  border-radius: 28px;
+  overflow: hidden;
+}
+.img-wrapper-bigger img {
+  width: 100%;
+  height: 98% !important;
+  object-fit: cover !important;
+}
+
+.our-services button {
+  border: none !important;
+}
 /* ================= End Featured Properties section ================= */
+
+/* ================= Start Reviws Section ================= */
+.bg-purple-color-section {
+  background: radial-gradient(circle, #531792 0%, #511794 50%, #4d179a 100%);
+}
+/* ================= End Reviws Section ================= */
