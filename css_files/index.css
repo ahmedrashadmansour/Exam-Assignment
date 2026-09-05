@@ -78,6 +78,10 @@ img {
   --bg-heavy-yellow: #d08700;
   --bg-light-yellow: #fef9c2;
 }
+
+.text-light-purple {
+  color: #ddd6ed;
+}
 .bg-heavy-yellow {
   background-color: var(--bg-heavy-yellow);
 }
@@ -597,20 +601,11 @@ h2 {
   border: none;
   border-radius: 0;
 }
-/* 
-.image-building img {
-  height: 400px !important;
-  width: 100%;
-} */
 
 .img-wrapper {
   position: relative;
   border-radius: 28px;
   overflow: hidden;
-
-  /* transition: all 0.3s ease-in-out; */
-  /* max-height: 400px;
-  max-width: 600px; */
 }
 
 .img-wrapper img {
@@ -627,26 +622,29 @@ h2 {
   left: -5%;
   bottom: 8%;
   /* overflow: visible; */
-  padding: 25px !important;
+  padding: 20px !important;
+  border-radius: 12px;
 }
 
 .right-postion-icon {
   background-color: white !important;
   position: absolute;
   right: -5%;
-  bottom: 10%;
+  bottom: 5%;
   /* overflow: visible; */
   padding: 20px !important;
 }
 .img-wrapper-bigger {
-  height: 90% !important;
+  height: 100% !important;
+  width: 100% !important;
   border-radius: 28px;
   overflow: hidden;
 }
 .img-wrapper-bigger img {
   width: 100%;
-  height: 98% !important;
+  height: 100% !important;
   object-fit: cover !important;
+  display: block;
 }
 
 .our-services button {
@@ -658,4 +656,117 @@ h2 {
 .bg-purple-color-section {
   background: radial-gradient(circle, #531792 0%, #511794 50%, #4d179a 100%);
 }
+
+.rounded-pill-yellow {
+  width: fit-content;
+  color: var(--text-heavy-purple);
+  background-color: #f9f5ff;
+  border: 1px solid #d8b4fe !important;
+  box-shadow: 0 2px 6px rgba(111, 66, 193, 0.04) !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded-pill-wrapper-yw::before {
+  content: "";
+  height: 2.5px;
+  width: 70px;
+  background: linear-gradient(to right, transparent, #fd9900);
+  position: static;
+}
+
+.rounded-pill-wrapper-yw::after {
+  content: "";
+  height: 2.5px;
+  width: 70px;
+  background: linear-gradient(to left, transparent, #fd9900);
+  position: static;
+}
+
+/* caresoul */
+
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background-color: #7a45a4 !important;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  opacity: 1;
+}
+
+#carouselExampleIndicators .carousel-control-prev {
+  transform: translateX(5rem);
+}
+#carouselExampleIndicators .carousel-control-next {
+  transform: translateX(-5rem);
+}
+
+#carouselExampleIndicators .carousel-control-prev-icon,
+#carouselExampleIndicators .carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#carouselExampleIndicators .carousel-control-prev {
+  left: 15px;
+}
+
+#carouselExampleIndicators .carousel-control-next {
+  right: 15px;
+}
+
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.owners-details .owner-img {
+  height: 70px !important;
+  width: 70px !important;
+}
+.Stars {
+  color: #ffb900;
+}
+
+.carousel-item > div {
+  width: 95%;
+  margin-inline: auto;
+}
+
+.carousel-indicators {
+  transform: translateY(3rem);
+}
+
+.testimonial-card {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* ================= End Reviws Section ================= */
+
+/* ================= Start faq Section ================= */
+
+.purple-grad-header {
+  background: linear-gradient(to right, #7f21fd 0%, #970ff9 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: white !important;
+  box-shadow: none !important ;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+/* ================= End faq Section ================= */

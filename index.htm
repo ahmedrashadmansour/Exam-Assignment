@@ -206,7 +206,7 @@
               <a class="nav-link p-0 pt-2" href="#faq">FAQ </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-0 pt-2" href="#">Contact</a>
+              <a class="nav-link p-0 pt-2" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -216,7 +216,7 @@
 
     <main>
       <!-- Start hero section -->
-      <section class="hero-section pt-5 d-flex flex-column">
+      <section class="hero-section pt-5 d-flex flex-column" id="home">
         <header class="hero-heading m-auto text-center py-3">
           <h1 class="text-white text-capitalize pt-3">find your dream home</h1>
           <p class="text-white fs-5 fw-normal py-3">
@@ -552,7 +552,7 @@
 
       <!-- Start Our service section  -->
 
-      <section class="our-services py-5">
+      <section class="our-services py-5" id="services">
         <div class="pt-4 rounded-pill-wrapper d-flex justify-content-center align-items-center gap-3">
           <p class="text-uppercase mb-0 text-center p-2 px-4 rounded-pill font-12 rounded-pill-style fw-semibold">What We Offer</p>
         </div>
@@ -560,7 +560,7 @@
           <h2 class="gradient-header mx-auto text-center py-3">Our Services</h2>
           <p class="mx-auto text-center fs-5 fw-normal pb-5">Comprehensive real estate solutions tailored to your needs</p>
         </header>
-        <div class="container-fluid container-80">
+        <div class="container-fluid">
           <ul class="nav nav-tabs justify-content-center fs-6 fw-semibold" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button
@@ -679,7 +679,7 @@
                     </div>
                   </div>
                   <div class="col-12 col-lg-6">
-                    <div class="inner position-relative py-5 h-100">
+                    <div class="inner position-relative py-3 py-lg-5 h-100">
                       <div class="img-wrapper-bigger rounded-4 position-relative overflow-hidden h-100">
                         <img src="Elite_Homes_Images/service-img-1.webp" alt="building" class="rounded-4 w-100 h-100 d-block" />
                       </div>
@@ -948,16 +948,337 @@
       <!-- End Our service section  -->
 
       <!-- Start Reviws Section  -->
-      <section class="py-5 bg-purple-color-section">
-        <div class="pt-4 rounded-pill-wrapper d-flex justify-content-center align-items-center gap-3">
-          <p class="text-uppercase mb-0 text-center p-2 px-4 rounded-pill font-12 rounded-pill-style fw-semibold">What We Offer</p>
+      <section class="py-5 bg-purple-color-section mb-5" id="testimonials">
+        <div class="pt-4 rounded-pill-wrapper-yw d-flex justify-content-center align-items-center gap-3">
+          <p class="text-uppercase mb-0 text-center p-2 px-4 rounded-pill font-12 rounded-pill-yellow fw-semibold">What We Offer</p>
         </div>
         <header>
-          <h2 class="gradient-header mx-auto text-center py-3">Our Services</h2>
-          <p class="mx-auto text-center fs-5 fw-normal pb-5">Comprehensive real estate solutions tailored to your needs</p>
+          <h2 class="text-white mx-auto text-center py-3">What Our Clients Say</h2>
+          <p class="mx-auto text-center fs-5 fw-normal pb-5 text-light-purple">
+            Hear from satisfied homeowners who found their dream properties with <br />EliteHomes
+          </p>
         </header>
+
+        <!-- curesoul -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel " data-bs-interval="4000">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active rounded-circle"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+            <button
+              class="rounded-circle"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button
+              class="rounded-circle"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button
+              class="rounded-circle"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-card bg-white rounded-4 p-4 mb-3">
+                <div class="page-header d-flex gap-3">
+                  <span class="Stars"
+                    ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <p>5.0 out of 5</p>
+                </div>
+                <p class="py-3 fs-5">
+                  "EliteHomes made our home buying experience absolutely seamless. Sarah and her team went above and beyond to help us find
+                  the perfect family home in Beverly Hills. Their market knowledge and negotiation skills saved us over $100,000 on our
+                  purchase. We couldn't be happier!"
+                </p>
+                <div class="owners-details d-flex gap-3">
+                  <div class="owner-img"><img src="Elite_Homes_Images/avatar-1.jpg" alt="owner" class="rounded-circle" /></div>
+                  <div class="owner-titles">
+                    <h6 class="font-18 fw-bold mb-1">Mark Thompson</h6>
+                    <p class="text-muted m-0">Beverly Hills Homeowners</p>
+                    <p class="text-muted">Purchased $2.8M Family Estate</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!-- Second -->
+              <div class="testimonial-card bg-white rounded-4 p-4 mb-3">
+                <div class="page-header d-flex gap-3">
+                  <span class="Stars"
+                    ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <p>5.0 out of 5</p>
+                </div>
+                <p class="py-3 fs-5">
+                  "As first-time investors, we were nervous about entering the real estate market. The EliteHomes investment team provided
+                  incredible guidance and helped us build a portfolio that's already generating 18% annual returns. Their expertise is
+                  unmatched."
+                </p>
+                <div class="owners-details d-flex gap-3">
+                  <div class="owner-img"><img src="Elite_Homes_Images/avatar-3.jpg" alt="owner" class="rounded-circle" /></div>
+                  <div class="owner-titles">
+                    <h6 class="font-18 fw-bold mb-1">David Rodriguez</h6>
+                    <p class="text-muted m-0">Real Estate Investor</p>
+                    <p class="text-muted">$1.2M Investment Portfolio</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!-- third -->
+              <div class="testimonial-card bg-white rounded-4 p-4 mb-3">
+                <div class="page-header d-flex gap-3">
+                  <span class="Stars"
+                    ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <p>5 out of 5</p>
+                </div>
+                <p class="py-3 fs-5">
+                  "Selling our Manhattan penthouse was stress-free thanks to EliteHomes. They marketed it beautifully, brought qualified
+                  buyers, and we sold for 15% above asking price in just 10 days. Their professional photography and staging made all the
+                  difference."
+                </p>
+                <div class="owners-details d-flex gap-3">
+                  <div class="owner-img"><img src="Elite_Homes_Images/avatar-4.jpg" alt="owner" class="rounded-circle" /></div>
+                  <div class="owner-titles">
+                    <h6 class="font-18 fw-bold mb-1">Amanda Chen</h6>
+                    <p class="text-muted m-0">Manhattan Seller</p>
+                    <p class="text-muted">Sold $3.2M Penthouse</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!-- Fourth -->
+              <div class="testimonial-card bg-white rounded-4 p-4 mb-3">
+                <div class="page-header d-flex gap-3">
+                  <span class="Stars"
+                    ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                  ></span>
+                  <p>5 out of 5</p>
+                </div>
+                <p class="py-3 fs-5">
+                  "Our company needed to relocate to a larger office space quickly. EliteHomes' commercial team found us the perfect
+                  building in downtown Austin with flexible lease terms and great amenities. They handled everything professionally and
+                  efficiently."
+                </p>
+                <div class="owners-details d-flex gap-3">
+                  <div class="owner-img"><img src="Elite_Homes_Images/avatar-5.jpg" alt="owner" class="rounded-circle" /></div>
+                  <div class="owner-titles">
+                    <h6 class="font-18 fw-bold mb-1">Michael Foster</h6>
+                    <p class="text-muted m-0">CEO, TechStart Inc.</p>
+                    <p class="text-muted">15,000 sq ft Office Lease</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </section>
       <!-- End Reviws Section  -->
+
+      <!-- start FAQ Section  -->
+
+      <section class="faq py-5 bg-section" id="faq">
+        <div class="pt-4 rounded-pill-wrapper d-flex justify-content-center align-items-center gap-3">
+          <p class="text-uppercase mb-0 text-center p-2 px-4 rounded-pill font-12 rounded-pill-style fw-semibold">help center</p>
+        </div>
+        <header>
+          <h2 class="purple-grad-header mx-auto text-center py-3">Frequently Asked Questions</h2>
+          <p class="mx-auto text-center fs-5 fw-normal pb-5">
+            Get answers to the most common questions about buying, selling , and <br />investing in real estate
+          </p>
+        </header>
+        <div class="accordion mx-auto" id="accordionExample">
+          <!-- 1st -->
+          <div class="accordion-item my-4 px-2 py-3 rounded-4 border-0 shadow">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne">
+                What do I know if I'm ready to buy a home
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                You're ready to buy a home when you have stable income, a good credit score (typically 620+), a down payment saved (usually
+                10-20% of the home price), and you plan to stay in the area for at least 3-5 years. Our team can help assess your financial
+                readiness and connect you with mortgage pre-approval services.
+              </div>
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="accordion-item my-4 px-2 py-3 rounded-4 border-0 shadow">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo">
+                What's the best time of year to sell my house
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Spring and early summer (March through June) are traditionally the best times to sell, as buyers are more active and homes
+                show better with good weather. However, market conditions, local factors, and your personal timeline are more important than
+                the season. We can help you determine the optimal timing based on current market conditions in your area.
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="accordion-item my-4 px-2 py-3 rounded-4 border-0 shadow">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree">
+                How much should I offer on a house
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Your offer should be based on comparable sales in the area, the home's condition, current market conditions, and your
+                budget. In competitive markets, you might need to offer at or above asking price. Our agents will provide a detailed
+                comparative market analysis (CMA) to help you make a competitive yet reasonable offer.
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="accordion-item my-4 px-2 py-3 rounded-4 border-0 shadow">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseThree">
+                what are closing costs and who pays them
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Closing costs typically range from 2-5% of the home's purchase price and include fees for loan origination, appraisal, title
+                insurance, attorney fees, and taxes. Both buyers and sellers have closing costs, though they vary by location and can be
+                negotiated. We'll provide a detailed breakdown of expected costs early in the process..
+              </div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="accordion-item my-4 px-2 py-3 rounded-4 border-0 shadow">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseThree">
+                Should I get a home inspection
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Yes, absolutely! A professional home inspection typically costs $300-600 but can save you thousands by identifying potential
+                issues before you buy. We recommend inspections for all property types and can connect you with qualified, licensed
+                inspectors in your area.
+              </div>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="accordion-item my-4 px-2 py-3 rounded-4 border-0 shadow">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseThree">
+                How long does it take to buy or sell a home ?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                For buyers, the process typically takes 30-45 days from offer acceptance to closing, though finding the right home can take
+                weeks or months. For sellers, the average time on market varies by location and price range, but our properties typically
+                sell within 28 days. We'll provide realistic timelines based on your specific situation and local market conditions.
+              </div>
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="accordion-item my-4 px-2 py-3 rounded-4 border-0 shadow">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven"
+                aria-expanded="false"
+                aria-controls="collapseThree">
+                What make Elite Homes diffrent from other real estate companies ?
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                We combine cutting-edge technology with personalized service, offering virtual tours, AI-powered property matching,
+                comprehensive market analytics, and a dedicated team of experts for each client. Our 98% client satisfaction rate and
+                average 21-day selling time speak to our commitment to excellence and results.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- start FAQ Section  -->
+
+      <!-- Start Contact Us Section  -->
+
+      <section class="contact py-5" id="contact">
+        <div class="pt-4 rounded-pill-wrapper d-flex justify-content-center align-items-center gap-3">
+          <p class="text-uppercase mb-0 text-center p-2 px-4 rounded-pill font-12 rounded-pill-style fw-semibold">contact us</p>
+        </div>
+        <header>
+          <h2 class="gradient-header mx-auto text-center py-3 text-capitalize">get in touch</h2>
+          <p class="mx-auto text-center fs-5 fw-normal pb-5">Comprehensive real estate solutions tailored to your needs</p>
+        </header>
+        <div class="conact-us-cards"></div>
+      </section>
+      <!-- End  Contact Us Section  -->
     </main>
 
     <script src="Js_files/bootstrap.js"></script>

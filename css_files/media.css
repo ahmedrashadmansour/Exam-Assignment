@@ -10,11 +10,25 @@
   .company-statistics {
     width: 100%;
   }
+
+  h1 {
+    font-size: 48px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
 }
 
 @media (min-width: 992px) {
   .dispaly-2-lg {
     width: 25% !important;
+  }
+  .carousel-item > div {
+    width: 60% !important;
+  }
+
+  .accordion {
+    width: 65% !important;
   }
 }
 
@@ -30,6 +44,39 @@
 
   .hero-section form {
     width: 85% !important;
+  }
+
+  #carouselExampleIndicators .carousel-control-prev {
+    display: none;
+  }
+  #carouselExampleIndicators .carousel-control-next {
+    display: none;
+  }
+  .img-wrapper-bigger {
+    height: 400px;
+  }
+
+  .img-wrapper-bigger img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .commercial-vol {
+    left: 5%;
+    bottom: 5%;
+    padding: 14px !important;
+  }
+
+  .commercial-vol .fs-4 {
+    font-size: 1.5rem !important;
+  }
+
+  .commercial-vol .font-12px {
+    font-size: 16px;
+  }
+
+  .accordion {
+    width: 90% !important;
   }
 }
 
