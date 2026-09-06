@@ -25,6 +25,10 @@ body {
   scroll-padding-top: 4rem;
 }
 
+section {
+  scroll-padding-top: 2.5rem;
+}
+
 img,
 picture,
 video,
@@ -479,7 +483,6 @@ h1 {
 
 .form-select:focus,
 .form-control:focus {
-  /* box-shadow: none !important; */
   outline: none !important;
   border-color: var(--bg-heavy-purple) !important;
   box-shadow:
@@ -638,8 +641,8 @@ h2 {
 .commercial-vol {
   background-color: white !important;
   position: absolute;
-  left: -5%;
-  bottom: 8%;
+  left: -5% !important;
+  bottom: -1.5rem !important;
   /* overflow: visible; */
   padding: 20px !important;
   border-radius: 12px;
@@ -890,15 +893,6 @@ textarea {
 
 .inner-input-bg {
   background-color: #f9fafb;
-}
-
-.form-control:focus,
-.form-select:focus,
-input.form-control:focus,
-select.form-select:focus {
-  outline: none !important;
-  box-shadow: none !important;
-  border-color: #ced4da !important; /* Change to your preferred border color */
 }
 
 .text-red-span {

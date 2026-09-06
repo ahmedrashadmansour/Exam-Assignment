@@ -24,9 +24,9 @@
     <!-- css style  -->
     <link rel="stylesheet" href="css_files/index.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navId">
     <!-- start navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 px-3 bg-white position-fixed">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 px-3 bg-white position-fixed" id="navId">
       <div class="container-fluid container-lg">
         <a class="navbar-brand fs-4 fw-bold" href="#">EliteHomes</a>
         <button
@@ -1416,7 +1416,7 @@
                           type="text"
                           id="first-name"
                           name="fname"
-                          class="form-control rounded-3 p-2 flex-grow-1 flex-shrink-0 inner-input-bg"
+                          class="form-control rounded-3 p-2 flex-grow-1 flex-shrink-0 inner-input-bg form-control"
                           placeholder="John" />
                       </div>
                       <div class="d-flex flex-column flex-grow-1">
@@ -1455,7 +1455,7 @@
                     </div>
                     <div class="service-selection">
                       <label for="service" class="py-2 font-14">I'm interested in</label>
-                      <select name="service" id="service" class="form-control w-100 p-2 rounded-3 inner-input-bg">
+                      <select name="service" id="service" class="form-select w-100 p-2 rounded-3 inner-input-bg">
                         <option value="Null">Select Service</option>
                         <option value="buy">Buying a home</option>
                         <option value="sell">Selling a home</option>
@@ -1527,6 +1527,7 @@
       </div>
     </footer>
 
+    <!-- js  -->
     <script src="Js_files/bootstrap.js"></script>
   </body>
 </html>

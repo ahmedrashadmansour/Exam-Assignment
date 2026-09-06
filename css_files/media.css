@@ -17,6 +17,10 @@
   h2 {
     font-size: 30px !important;
   }
+
+  header p {
+    font-size: 8px !important;
+  }
 }
 
 @media (min-width: 992px) {
