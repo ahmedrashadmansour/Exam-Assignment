@@ -79,8 +79,8 @@
     width: 90% !important;
   }
 
-  .contact header::after,
-  .contact header::before {
+  .contact::after,
+  .contact::before {
     display: none;
   }
 }
