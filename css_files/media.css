@@ -34,6 +34,13 @@
   .accordion {
     width: 65% !important;
   }
+
+  footer .social-media {
+    justify-content: end !important;
+  }
+  footer h3 {
+    text-align: left !important;
+  }
 }
 
 /* lg */
