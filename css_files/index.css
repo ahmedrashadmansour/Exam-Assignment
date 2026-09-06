@@ -641,6 +641,9 @@ h2 {
   border-radius: 12px;
 }
 
+.blue-btn:hover {
+  background-color: #432dd7 !important;
+}
 .right-postion-icon {
   background-color: white !important;
   position: absolute;
@@ -893,10 +896,10 @@ textarea {
   transform: scale(2);
 }
 
-form button {
+.contact form button {
   transition: transform 0.3s;
 }
-form button:hover {
+.contact form button:hover {
   transform: translateY(-10%);
 }
 
@@ -931,4 +934,5 @@ footer {
   padding-block: 20px;
   border-top: 2px solid #5c29a0;
 }
+
 /* ================= End contact us Section ================= */

@@ -23,6 +23,15 @@
   }
 }
 
+@media (min-width: 768px) {
+  footer .social-media {
+    justify-content: end !important;
+  }
+  footer h3 {
+    text-align: left !important;
+  }
+}
+
 @media (min-width: 992px) {
   .dispaly-2-lg {
     width: 25% !important;
@@ -33,13 +42,6 @@
 
   .accordion {
     width: 65% !important;
-  }
-
-  footer .social-media {
-    justify-content: end !important;
-  }
-  footer h3 {
-    text-align: left !important;
   }
 }
 
