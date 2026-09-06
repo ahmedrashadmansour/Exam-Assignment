@@ -38,7 +38,9 @@
     width: 32% !important;
   }
   nav ul li a:hover::before,
-  .active-effect::before {
+  .active-effect::before,
+  .contact form::after,
+  .contact form::before {
     display: none;
   }
 

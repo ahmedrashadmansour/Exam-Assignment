@@ -83,6 +83,9 @@ img {
 .text-red {
   color: var(--text-red);
 }
+.bg-red {
+  background-color: var(--text-red);
+}
 .text-light-purple {
   color: #ddd6ed;
 }
@@ -776,6 +779,10 @@ h2 {
   -webkit-text-fill-color: transparent !important;
 }
 
+.bg-purple-grad {
+  background: linear-gradient(to right, #4d179a 0%, #59168b 100%);
+}
+
 .accordion-button:not(.collapsed) {
   color: black !important;
   background-color: white !important;
@@ -906,9 +913,12 @@ form button:hover {
   transform: translateY(-10%);
 }
 
-.btm-before-and-after-shape::before {
+footer {
+  overflow-x: hidden;
+}
+.contact form::before {
   content: "";
-  bottom: -12rem;
+  bottom: -14rem;
   left: -10rem;
   width: 400px;
   height: 400px;
@@ -918,10 +928,10 @@ form button:hover {
   z-index: -1;
 }
 
-.btm-before-and-after-shape::after {
+.contact form::after {
   content: "";
-  bottom: 5rem;
-  left: 6rem;
+  bottom: 2rem;
+  left: 8rem;
   width: 120px;
   height: 120px;
   border-radius: 50%;
